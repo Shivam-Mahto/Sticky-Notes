@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.card ::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+.card ::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.6);
+  border-radius: 0.3em;
+}
+
+.card ::-webkit-scrollbar-track {
+  background-color: transparent;
+}

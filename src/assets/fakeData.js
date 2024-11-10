@@ -1,9 +1,7 @@
 export const fakeData = [
   {
     _id: 1,
-    body: JSON.stringify(
-      'Resources:\n- Book: "You Don\'t Know JS: Scope & Closures" by Kyle Simpson.\n\n- Online Course: "JavaScript Patterns" on Udemy.\n\n- Articles:\n"Understanding JavaScript Closures" on Medium.\n\n"Mastering JavaScript Modules" on Dev.to.'
-    ),
+    body: JSON.stringify("1:23:07"),
     colors: JSON.stringify({
       id: "color-purple",
       colorHeader: "#FED0FD",

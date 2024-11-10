@@ -5,7 +5,7 @@ import NoteCard from '../components/NoteCard.jsx'
 const NotesPage = () => {
 
   return (
-    <div id='app' className='h-screen bg-black text-black relative overflow-clip'>
+    <div>
       {fakeData.map((note) => {
         return (<NoteCard key={note._id} note={note} />);
       })}
